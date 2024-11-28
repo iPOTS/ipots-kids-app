@@ -48,6 +48,8 @@ import KidsPending from "./pages/KidsPending";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Benefits from "./pages/Benefits/Benefits";
 import Crossword from "./components/Crossword/components/Crossword";
+import FinancialLiteracy from "./pages/FinancialLiteracy/FinancialLiteracy";
+import Play from "./pages/FinancialLiteracy/Play";
 
 function App() {
   return (
@@ -81,6 +83,11 @@ function App() {
                   </ProtectedRoute>
                 }
               />
+              <Route
+                path="/financial-literacy"
+                element={<FinancialLiteracy />}
+              />
+              <Route path="/financial-literacy/play" element={<Play />} />
               <Route path="/crossword" element={<Crossword />} />
               <Route path="/readstory" element={<ReadStoryMenu />} />
               <Route path="/story/level/:level" element={<Story />} />
