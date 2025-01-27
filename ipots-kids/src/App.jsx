@@ -50,6 +50,10 @@ import Benefits from "./pages/Benefits/Benefits";
 import Crossword from "./components/Crossword/components/Crossword";
 import FinancialLiteracy from "./pages/FinancialLiteracy/FinancialLiteracy";
 import Play from "./pages/FinancialLiteracy/Play";
+import AddBook from "./pages/Audiobooks/AddBook/AddBook";
+import ReadBook from "./pages/Audiobooks/ReadBook/ReadBook";
+import BrowseBooks from "./pages/Audiobooks/BrowseBooks/BrowseBooks";
+import Guidelines from "./pages/Audiobooks/Guidelines/Guidelines";
 
 function App() {
   return (
@@ -87,6 +91,10 @@ function App() {
                 path="/financial-literacy"
                 element={<FinancialLiteracy />}
               />
+              <Route path="/audiobooks/new" element={<AddBook />} />
+              <Route path="/audiobooks/guidelines" element={<Guidelines />} />
+              <Route path="/audiobooks/play/:bookId" element={<ReadBook />} />
+              <Route path="/audiobooks" element={<BrowseBooks />} />
               <Route path="/financial-literacy/play" element={<Play />} />
               <Route path="/crossword" element={<Crossword />} />
               <Route path="/readstory" element={<ReadStoryMenu />} />

@@ -1,0 +1,36 @@
+.book-card {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  height: fit-content;
+  min-height: 60vh;
+  border: 1px solid #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-card:hover {
+  background-color: #e6e6e6;
+}
+
+.book-card:hover .book-card__cover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.book-card__cover {
+  width: 10em;
+}
+
+.book-card__info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}

@@ -1,0 +1,10 @@
+.book-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  list-style: none;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}

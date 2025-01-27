@@ -1,0 +1,618 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Leo the Lion",
+      "condition": "Healthy",
+      "image_path": "/animal.png",
+      "created_at": "2024-12-19T10:00:00",
+      "updated_at": "2024-12-19T10:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Emma the Elephant",
+      "condition": "Recovery",
+      "image_path": "/animal.png",
+      "created_at": "2024-12-19T10:30:00",
+      "updated_at": "2024-12-19T10:30:00"
+    },
+    {
+      "id": 3,
+      "name": "Pablo the Penguin",
+      "condition": "Rehabilitation",
+      "image_path": "/animal.png",
+      "created_at": "2024-12-19T10:45:00",
+      "updated_at": "2024-12-19T10:45:00"
+    },
+    {
+      "id": 4,
+      "name": "Gigi the Giraffe",
+      "condition": "Healthy",
+      "image_path": "/animal.png",
+      "created_at": "2024-12-19T11:00:00",
+      "updated_at": "2024-12-19T11:00:00"
+    }
+  ],
+  "narrators": [
+    {
+      "id": 1,
+      "first_name": "James",
+      "last_name": "Morgan",
+      "bio": "Professional voice artist with 10 years of experience in children's audiobooks",
+      "social_link": "twitter.com/jamesmorgan",
+      "created_at": "2024-12-19T09:00:00",
+      "updated_at": "2024-12-19T09:00:00"
+    },
+    {
+      "id": 2,
+      "first_name": "Sarah",
+      "last_name": "Wilson",
+      "bio": "Award-winning narrator specializing in wildlife stories",
+      "social_link": "instagram.com/sarahwilson",
+      "created_at": "2024-12-19T09:15:00",
+      "updated_at": "2024-12-19T09:15:00"
+    },
+    {
+      "id": 3,
+      "first_name": "David",
+      "last_name": "Chen",
+      "bio": "Multilingual narrator with a background in marine biology",
+      "social_link": "twitter.com/davidchen_narrates",
+      "created_at": "2024-12-19T09:30:00",
+      "updated_at": "2024-12-19T09:30:00"
+    },
+    {
+      "id": 4,
+      "first_name": "Maria",
+      "last_name": "Rodriguez",
+      "bio": "Storyteller specializing in educational children's content",
+      "social_link": "instagram.com/maria_stories",
+      "created_at": "2024-12-19T09:45:00",
+      "updated_at": "2024-12-19T09:45:00"
+    }
+  ],
+  "illustrators": [
+    {
+      "id": 1,
+      "first_name": "Michael",
+      "last_name": "Chen",
+      "bio": "Digital artist with a passion for wildlife illustration",
+      "social_link": "artstation.com/michaelchen",
+      "created_at": "2024-12-19T08:00:00",
+      "updated_at": "2024-12-19T08:00:00"
+    },
+    {
+      "id": 2,
+      "first_name": "Lisa",
+      "last_name": "Peterson",
+      "bio": "Traditional watercolor artist specializing in animal portraits",
+      "social_link": "instagram.com/lisapeterson_art",
+      "created_at": "2024-12-19T08:30:00",
+      "updated_at": "2024-12-19T08:30:00"
+    },
+    {
+      "id": 3,
+      "first_name": "Alex",
+      "last_name": "Kim",
+      "bio": "Mixed media artist focusing on arctic wildlife",
+      "social_link": "behance.net/alexkim",
+      "created_at": "2024-12-19T08:45:00",
+      "updated_at": "2024-12-19T08:45:00"
+    },
+    {
+      "id": 4,
+      "first_name": "Sofia",
+      "last_name": "Patel",
+      "bio": "Digital illustrator specializing in African wildlife",
+      "social_link": "instagram.com/sofia_wild_art",
+      "created_at": "2024-12-19T09:00:00",
+      "updated_at": "2024-12-19T09:00:00"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "description": "Stories about animals in their natural habitats",
+      "name": "Wildlife",
+      "created_at": "2024-12-19T07:00:00",
+      "updated_at": "2024-12-19T07:00:00"
+    },
+    {
+      "id": 2,
+      "description": "Tales of animal rescue and recovery",
+      "name": "Rescue Stories",
+      "created_at": "2024-12-19T07:15:00",
+      "updated_at": "2024-12-19T07:15:00"
+    },
+    {
+      "id": 3,
+      "description": "Educational stories about animal conservation",
+      "name": "Conservation",
+      "created_at": "2024-12-19T07:30:00",
+      "updated_at": "2024-12-19T07:30:00"
+    },
+    {
+      "id": 4,
+      "description": "Adventures of animals making new friends",
+      "name": "Friendship",
+      "created_at": "2024-12-19T07:45:00",
+      "updated_at": "2024-12-19T07:45:00"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Leo's Journey Home",
+      "audio_path": "/audio.wav",
+      "image_path": "/cover.png",
+      "category_id": 1,
+      "animal_id": 1,
+      "narrator_id": 1,
+      "illustrator_id": 1,
+      "pages": 8,
+      "created_at": "2024-12-19T11:00:00",
+      "updated_at": "2024-12-19T11:00:00"
+    },
+    {
+      "id": 2,
+      "title": "Emma's New Family",
+      "audio_path": "/audio.wav",
+      "image_path": "/cover.png",
+      "category_id": 2,
+      "animal_id": 2,
+      "narrator_id": 2,
+      "illustrator_id": 2,
+      "pages": 8,
+      "created_at": "2024-12-19T11:30:00",
+      "updated_at": "2024-12-19T11:30:00"
+    },
+    {
+      "id": 3,
+      "title": "Pablo's Arctic Adventure",
+      "audio_path": "/audio.wav",
+      "image_path": "/cover.png",
+      "category_id": 3,
+      "animal_id": 3,
+      "narrator_id": 3,
+      "illustrator_id": 3,
+      "pages": 8,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 4,
+      "title": "Gigi Makes Friends",
+      "audio_path": "/audio.wav",
+      "image_path": "/cover.png",
+      "category_id": 4,
+      "animal_id": 4,
+      "narrator_id": 4,
+      "illustrator_id": 4,
+      "pages": 8,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "text": "Leo lived in a beautiful savanna with tall grass swaying in the wind.",
+      "book_id": 1,
+      "start_time": 0,
+      "end_time": 15,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 1,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 2,
+      "text": "One day, Leo decided to explore beyond his usual territory.",
+      "book_id": 1,
+      "start_time": 15,
+      "end_time": 30,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 2,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 3,
+      "text": "He met many interesting animals along the way.",
+      "book_id": 1,
+      "start_time": 30,
+      "end_time": 45,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 3,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 4,
+      "text": "But as the sun began to set, Leo realized he was lost.",
+      "book_id": 1,
+      "start_time": 45,
+      "end_time": 60,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 4,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 5,
+      "text": "A wise old elephant showed him the way back.",
+      "book_id": 1,
+      "start_time": 60,
+      "end_time": 75,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 5,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 6,
+      "text": "Leo followed the elephant's directions carefully.",
+      "book_id": 1,
+      "start_time": 75,
+      "end_time": 90,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 6,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 7,
+      "text": "Soon, he recognized the familiar trees near his home.",
+      "book_id": 1,
+      "start_time": 90,
+      "end_time": 105,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 7,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 8,
+      "text": "Finally, Leo was back home, grateful for his adventure and new friends.",
+      "book_id": 1,
+      "start_time": 105,
+      "end_time": 120,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 8,
+      "created_at": "2024-12-19T12:00:00",
+      "updated_at": "2024-12-19T12:00:00"
+    },
+    {
+      "id": 9,
+      "text": "Emma was found alone in the forest, scared and hungry.",
+      "book_id": 2,
+      "start_time": 0,
+      "end_time": 15,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 1,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 10,
+      "text": "The kind rescue team brought her to a safe place.",
+      "book_id": 2,
+      "start_time": 15,
+      "end_time": 30,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 2,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 11,
+      "text": "They gave her food and medicine to help her feel better.",
+      "book_id": 2,
+      "start_time": 30,
+      "end_time": 45,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 3,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 12,
+      "text": "Emma met other rescued elephants at the sanctuary.",
+      "book_id": 2,
+      "start_time": 45,
+      "end_time": 60,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 4,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 13,
+      "text": "They showed her how to play and have fun again.",
+      "book_id": 2,
+      "start_time": 60,
+      "end_time": 75,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 5,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 14,
+      "text": "An older elephant named Maya became like a mother to Emma.",
+      "book_id": 2,
+      "start_time": 75,
+      "end_time": 90,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 6,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 15,
+      "text": "Emma grew stronger and happier each day.",
+      "book_id": 2,
+      "start_time": 90,
+      "end_time": 105,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 7,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 16,
+      "text": "Now Emma has a loving family at the sanctuary, where she'll always be safe.",
+      "book_id": 2,
+      "start_time": 105,
+      "end_time": 120,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 8,
+      "created_at": "2024-12-19T12:15:00",
+      "updated_at": "2024-12-19T12:15:00"
+    },
+    {
+      "id": 17,
+      "text": "Pablo lived in a research station in Antarctica with his scientist friends.",
+      "book_id": 3,
+      "start_time": 0,
+      "end_time": 15,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 1,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 18,
+      "text": "He helped them study how climate change affects the ice.",
+      "book_id": 3,
+      "start_time": 15,
+      "end_time": 30,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 2,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 19,
+      "text": "One day, Pablo noticed that his favorite ice patch was melting faster than usual.",
+      "book_id": 3,
+      "start_time": 30,
+      "end_time": 45,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 3,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 20,
+      "text": "He waddled quickly to tell the scientists about his discovery.",
+      "book_id": 3,
+      "start_time": 45,
+      "end_time": 60,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 4,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 21,
+      "text": "The scientists used special equipment to measure the ice thickness.",
+      "book_id": 3,
+      "start_time": 60,
+      "end_time": 75,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 5,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 22,
+      "text": "Thanks to Pablo's help, they learned important information about protecting the ice.",
+      "book_id": 3,
+      "start_time": 75,
+      "end_time": 90,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 6,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 23,
+      "text": "Pablo taught other penguins how to spot changes in the ice.",
+      "book_id": 3,
+      "start_time": 90,
+      "end_time": 105,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 7,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 24,
+      "text": "Now Pablo is known as the hero who helps protect his Antarctic home.",
+      "book_id": 3,
+      "start_time": 105,
+      "end_time": 120,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 8,
+      "created_at": "2024-12-19T12:30:00",
+      "updated_at": "2024-12-19T12:30:00"
+    },
+    {
+      "id": 25,
+      "text": "Gigi was the tallest giraffe in the savanna, but she felt lonely.",
+      "book_id": 4,
+      "start_time": 0,
+      "end_time": 15,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 1,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 26,
+      "text": "The other animals thought she was too tall to play with them.",
+      "book_id": 4,
+      "start_time": 15,
+      "end_time": 30,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 2,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 27,
+      "text": "One day, a group of baby birds got stuck in a tall tree.",
+      "book_id": 4,
+      "start_time": 30,
+      "end_time": 45,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 3,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 28,
+      "text": "Gigi used her long neck to help the baby birds get back to their nest.",
+      "book_id": 4,
+      "start_time": 45,
+      "end_time": 60,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 4,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 29,
+      "text": "The other animals realized how special Gigi's height made her.",
+      "book_id": 4,
+      "start_time": 60,
+      "end_time": 75,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 5,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 30,
+      "text": "They asked her to help with all sorts of things only she could do.",
+      "book_id": 4,
+      "start_time": 75,
+      "end_time": 90,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 6,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 31,
+      "text": "Gigi discovered that being different made her unique and valuable.",
+      "book_id": 4,
+      "start_time": 90,
+      "end_time": 105,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 7,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    },
+    {
+      "id": 32,
+      "text": "Now Gigi has many friends who love her just the way she is.",
+      "book_id": 4,
+      "start_time": 105,
+      "end_time": 120,
+      "duration": 15,
+      "image_path": "/page.png",
+      "page_number": 8,
+      "created_at": "2024-12-19T12:45:00",
+      "updated_at": "2024-12-19T12:45:00"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "jimmy123",
+      "password": "securepass123",
+      "email": "jimmy@email.com"
+    },
+    {
+      "id": 2,
+      "username": "sarah_reads",
+      "password": "bookworm456",
+      "email": "sarah@email.com"
+    }
+  ],
+  "user_progress": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "current_page": 1,
+      "book_id": 1,
+      "progress": 50.0,
+      "last_listened": "2024-12-19T13:00:00",
+      "created_at": "2024-12-19T13:00:00",
+      "updated_at": "2024-12-19T13:00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "current_page": 1,
+      "book_id": 2,
+      "progress": 25.5,
+      "last_listened": "2024-12-19T13:15:00",
+      "created_at": "2024-12-19T13:15:00",
+      "updated_at": "2024-12-19T13:15:00"
+    }
+  ]
+}

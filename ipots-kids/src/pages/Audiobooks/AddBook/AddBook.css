@@ -1,0 +1,106 @@
+p,
+label {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+input,
+select {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.5em;
+}
+
+.button {
+  background-color: #0fc0fc;
+  border: none;
+  white-space: nowrap;
+  padding: 0.5em 1em;
+}
+
+.button:hover {
+  background-color: #81d8f5;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header__content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4em 8em;
+  background-color: #0fc0fc;
+  color: #000000;
+  border-radius: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form > *,
+.page > * {
+  margin: 8px;
+}
+
+.form input {
+  display: block;
+}
+
+.form-group {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  gap: 1em;
+  margin: 1em;
+}
+
+.form-group > * {
+  width: 100%;
+}
+
+.form-group__input {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  color: #000000;
+}
+
+.details,
+.page {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header__content {
+    width: 90vw;
+    padding: 1em 2em;
+  }
+
+  .form-group {
+    width: 90vw;
+    flex-flow: column nowrap;
+  }
+}
